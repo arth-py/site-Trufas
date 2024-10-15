@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --cor0:#37160D;
+    --cor1:#843D1E;
+    --cor2:#CF6363;
+    --cor3:#FADF00;
+    --cor4:#EDDCC2;
+}
+
+header {
+    background-color: var(--cor0);
+    height: 100px;
+}
+
+header h1 {
+    color: white;
+    padding: 10px;
+}
+
+main section h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    padding: 13px;
+    text-align: center;
+}
+
+section#sabores {
+    margin: 20px auto 0px auto;
+    background-color: var(--cor4);
+    min-height: 400px;
+    text-align: center;
+    max-width: 1200px;
+}
+
+section li {
+    width: 110px;
+    padding: 10px;
+    background-color: white;
+    height: 112px;
+    font-size: 1.6em;
+    margin:  35px 50px 15px 50px;
+    display: inline-block;
+    border-radius: 10px 10px 0px 0px;
+    transition-duration: 0.3s;
+}
+
+section li:hover {
+    transform: translate(0%,-5%);
+    box-shadow: 1px 1px 1px 1px white;
+}
+
+section.cor {
+    border-radius: 25px 25px 10px 10px;
+    margin-top: 9px;
+    height: 84px;
+    width: 130px;
+    margin-left: -10px;
+    padding-top: 4px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.357);
+}
+
+#chocolate {
+    background-color: var(--cor0);
+}
+
+#coco {
+    background-color: rgb(167, 166, 166);
+}
+
+#nutella {
+    background-color: #843D1E;
+}
+
+#maracuja {
+    background-color: #f8e328;
+    
+}
+
+section#biografia h2 {
+    font-size: 2.1em;
+    color: white;
+}
+
+section#biografia {
+    margin: 0 auto 0 auto;
+    max-width: 900px;
+    background-color: var(--cor1);
+    height: 400px;
+    position: relative;
+}
+
+
+section#biografia img {
+    position: absolute;
+    display: inline-block;
+    right: 8%;
+    border-radius: 50%;
+}
+
+article.info {
+    max-width: 500px;
+    background-color: white;
+    position: absolute;
+    left: 5%;
+    bottom: 15%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 0px black;
+}
+
+article > p {
+    padding: 10px;
+    text-align: justify;
+    text-indent: 30px;
+} 
+
+footer {
+    color: white;
+    background-color: black;
+}
