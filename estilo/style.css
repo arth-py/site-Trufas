@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family:cursive;
 }
 
 :root {
@@ -29,7 +30,7 @@ header {
     display: block;
     margin: auto;
     background-color: var(--cor0);
-    height: 100px;
+    height: 90px;
     width: 500px;
   
 }
@@ -38,10 +39,8 @@ header h1 {
     font-size: 2.6em;
     text-align: center;
     color: var(--cor4);
-    padding-top: 20px;
+    padding-top: 10px;
 }
-
-
 
 section#sabores {
     margin: auto;
@@ -63,10 +62,26 @@ section#sabores > img {
 }
 
 section#biografia {
-    margin: 0 auto 0 auto;
+    margin: auto;
     width: 500px;
     background-color: var(--cor1);
     height: 344px;
+}
+
+section#biografia > article {
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    width: 50%;
+    height: 60%;
+}
+
+section#biografia > div.imagem {
+    display: inline-block;
+    background-color: gray;
+    width: 39%;
+    height: 80%;
+    padding: 10px;
 }
 
 footer {
