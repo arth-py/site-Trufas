@@ -35,30 +35,38 @@ header {
 }
 
 header h1 {
+    font-size: 2.6em;
     text-align: center;
     color: var(--cor4);
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
-main section h2 {
-    font-size: 2em;
-    padding: 13px;
-    text-align: center;
-    
-}
+
 
 section#sabores {
     margin: auto;
     background-color: var(--cor4);
-    height: 400px;
+    height: 500px;
     width: 300px;
+}
+
+section#sabores > h2 {
+    font-size: 2em;
+    padding: 20px;
+    text-align: center;
+}
+
+section#sabores > img {
+    display: block;
+    margin: auto;
+    width: 120px;
 }
 
 section#biografia {
     margin: 0 auto 0 auto;
     width: 500px;
     background-color: var(--cor1);
-    height: 444px;
+    height: 344px;
 }
 
 footer {
